@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .header a:hover {
+    text-decoration: underline;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .navbar .logo img {
+    height: 50px;
+  }
+  
+  .navbar nav a {
+    margin: 0 15px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .navbar nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .navbar .social-icons a {
+    margin: 0 5px;
+    color: #333;
+  }
+  
+  .hero {
+    background: url("image/wallpaperflare.com_wallpaper.jpg") no-repeat center
+      center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin: 0;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin: 10px 0 20px;
+  }
+  
+  .hero .btn {
+    background-color: white;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .hero .btn:hover {
+    background-color: #ddd;
+  }
+  
+  .footer {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer .container .logo img {
+    height: 50px;
+  }
+  
+  .footer .container .contact-info {
+    text-align: left;
+  }
+  
+  .footer .container .contact-info p {
+    margin: 5px 0;
+  }
+  
+  .footer .container .social-icons a {
+    margin: 0 5px;
+    color: #333;
+  }
+  
+  .footer .container .social-icons a:hover {
+    color: #555;
+  }
+  
+  .footer .copyright {
+    margin-top: 20px;
+    color: #aaa;
+  }
+  
